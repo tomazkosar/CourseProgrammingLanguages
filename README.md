@@ -41,5 +41,5 @@ An introduction to Kotlin programming
 ## Lecture 5
 The DAO pattern
 
-##Tools used
+## Tools used
 1. IntelliJ

@@ -21,6 +21,6 @@ fun main() {
     } while (random != number)
 
     println ("Tries:")
-    for (i in 0 until counter) println(" $i -> ${tries[i]}")
+    for (i in 0 until counter) println(" ${i+1} -> ${tries[i]}")
 }
 

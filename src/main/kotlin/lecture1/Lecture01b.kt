@@ -4,7 +4,7 @@ fun arithmeticSeriesSum(a: Int, n: Int, d: Int ): Int {
 }
 
 //single line function, return type can be omitted
-fun arithmeticSeriesTerm(a: Int, n: Int, d: Int): Int =  a + (n-1)*d
+fun arithmeticSeriesTerm(a: Int, n: Int, d: Int) =  a + (n-1)*d
 
 fun main(args: Array<String>) {
     if (args.isEmpty()) {

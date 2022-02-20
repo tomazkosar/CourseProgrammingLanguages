@@ -1,16 +1,14 @@
-inline fun isMultipleOf (number: Int, multipleOf : Int): Boolean{  // function used as a parameter
+inline fun isMultipleOf(number: Int, multipleOf: Int): Boolean {  // function used as a parameter
     return number % multipleOf == 0
 }
 
-inline fun isEven (number: Int): Boolean{  // function used as a parameter
-    return number % 2 == 0
-}
+inline fun isEven(number: Int) = number % 2 == 0
 
-fun  ArrayList<Int>.filterOnCondition(condition: (Int) -> Boolean): ArrayList<Int>{  //extension function AND
-                                                    // a high order function with another function as a parameter
+fun ArrayList<Int>.filterOnCondition(condition: (Int) -> Boolean): ArrayList<Int> {  //extension function AND
+    // a high order function with another function as a parameter
     val result = arrayListOf<Int>()
-    for (item in this){
-        if (condition(item)){           // function invocation
+    for (item in this) {
+        if (condition(item)) {           // function invocation
             result.add(item)
         }
     }
@@ -19,7 +17,7 @@ fun  ArrayList<Int>.filterOnCondition(condition: (Int) -> Boolean): ArrayList<In
 
 fun main() {
     val list = arrayListOf<Int>()
-    for (number in 1..10){
+    for (number in 1..10) {
         list.add(number)
     }
 

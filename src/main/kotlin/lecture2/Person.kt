@@ -1,37 +1,36 @@
 package lecture2
 
-/*
-class Person(_name: String, _age: Int) {
-    val name: String
-    var age: Int
+/*class Person(var name: String, var age: Int) {
     // initializer block
     init {
-        name = _name.capitalize()
-        age = _age
+        name = name.uppercase()
     }
 }
-*/
 
-/*
+fun main(args: Array<String>) {
+    val person1 = Person("tomaz", 43)
+    println(person1.name)
+}*/
 
 //avoid using block init
-class Person(_name: String, _age: Int) {
-    val name: String = _name.capitalize()
+/*class Person(_name: String, _age: Int) {
+    val name: String = _name.uppercase()
     var age: Int = _age
 }
 
-
 fun main(args: Array<String>) {
-    val person1 = Person("tomaz", 42)
+    val person1 = Person("tomaz", 43)
     println(person1.name)
-}
+}*/
+
+/*
+class Person(var name: String = "/", var age: Int = 0)
 */
 
-
-//default value
-class Person(_name: String = "/", _age: Int = 0) {
-    var name: String = _name.capitalize()
-        set(value) { field = value.capitalize() }
+//set method
+class Person(var _name: String = "/", var _age: Int = 0) {
+    var name: String = _name.uppercase()
+        set(value) { field = value.uppercase() }
     var age: Int = _age
 }
 

@@ -1,6 +1,8 @@
 package lecture2
 
-
+/*
+class Point(var x: Int = 0, var y: Int = 0)
+*/
 
 /*
 class Point(_x: Int, _y: Int) {
@@ -10,17 +12,19 @@ class Point(_x: Int, _y: Int) {
 */
 
 
-/*
-class Point(_x: Int, _y: Int) {
-    var x:Int = _x
-    get() = field
-    set(value) { field = value }
+class Point(_x: Int  = 0, _y: Int = 0) {
+    var x: Int = _x
+        get() = field
+        set(value) {
+            field = value
+        }
 
-    var y:Int = _y
-    get() = field
-    set(value) { field = value }
+    var y: Int = _y
+        get() = field
+        set(value) {
+            field = value
+        }
 }
-*/
 
 /*
 class Point(_x: Int, _y: Int) {
@@ -50,10 +54,11 @@ class Point(_x: Int, _y: Int) {
 }
 */
 
+/*
 class Point(var x: Int = 0, var y: Int = 0) {
     override fun toString(): String = "($x, $y))"
 
-}
+}*/
 
 fun main() {
     val p1 = Point()

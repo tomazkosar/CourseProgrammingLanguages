@@ -13,6 +13,6 @@ fun main() {
     val mulResult = calculate(a, b) { a, b -> a * b } //
     println("sumResult $sumResult, mulResult $mulResult")
 
-    val result = (if (a>b) calculate else multResult) (a, b, ::sum)
+    //val result = (if (a>b) calculate else mulResult) (a, b, ::sum)
 }
 

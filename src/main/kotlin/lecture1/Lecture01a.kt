@@ -1,8 +1,6 @@
 package lecture1
 
-class Lecture01a {
-    var initialized: Int = 0
-}
+class Lecture01a (var initialized: Int = 0)
 
 fun main(args: Array<String>) {
     if (args.isEmpty()) {

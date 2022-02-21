@@ -3,15 +3,16 @@ fun main() {
     var input: String
     var number: Int
     var counter = 0
-    val tries = ArrayList<Int>()
+    val tries = ArrayList<Int?>()
 
     do {
         counter++
         print("Enter an integer: ")
         input = readLine()!!
-        number = input.toInt()
+        val number = input.toIntOrNull()
 
-        when { // when (random)
+        when {
+            number == null -> println ("wrong number")
             random < number -> println ("less")
             random > number -> println ("higher")
             else ->  println ("Bravo!")

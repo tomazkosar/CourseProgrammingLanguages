@@ -1,14 +1,14 @@
 package lecture3
 
-// Kotlin Generics (mutiple type parameters)
+// Kotlin Generics (multiple type parameters)
 interface Pair<K, V> {
     val key: K
     val value: V
 }
 
-internal class OrderedPair<K, V>(_key: K, _value: V) : Pair<K, V> {
-    override val key: K = _key
-    override val value: V = _value
+internal class OrderedPair<K, V>(key: K, value: V) : Pair<K, V> {
+    override val key: K = key
+    override val value: V = value
 }
 
 fun main(args: Array<String>) {
@@ -17,3 +17,4 @@ fun main(args: Array<String>) {
     val p3:OrderedPair<String, Int> = OrderedPair("Even", 8)
     val p4:OrderedPair<String, String> = OrderedPair("hello", "world")
 }
+

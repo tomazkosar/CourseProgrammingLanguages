@@ -13,14 +13,13 @@ fun main(args: Array<String>) {
 }*/
 
 //avoid using block init
-/*class Person(_name: String, _age: Int) {
-    val name: String = _name.uppercase()
-    var age: Int = _age
+/*class Person(name: String, var age: Int) {
+    var name = name.uppercase()
 }
 
 fun main(args: Array<String>) {
     val person1 = Person("tomaz", 43)
-    println(person1.name)
+    println(person1.name + " " + person1.age)
 }*/
 
 /*
@@ -28,19 +27,18 @@ class Person(var name: String = "/", var age: Int = 0)
 */
 
 //set method
-class Person(var _name: String = "/", var _age: Int = 0) {
-    var name: String = _name.uppercase()
+class Person(name: String = "/", age: Int = 0) {
+    var name: String = name.uppercase()
         set(value) { field = value.uppercase() }
-    var age: Int = _age
+    var age: Int = age
 }
 
 fun main(args: Array<String>) {
-    val person1 = Person("tomaz", 42)
+    val person1 = Person("tomaz", 43)
     println(person1.name)
 
     val person2 = Person()
     person2.name = "matej"
     println(person2.name)
 }
-
 

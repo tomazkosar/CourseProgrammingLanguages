@@ -3,20 +3,19 @@ package lecture2
 open class Point2D{
     var x: Int
     var y: Int
-    constructor(_x:Int = 0, _y:Int = 0){
-        x = _x
-        y = _y
+    constructor(ax:Int = 0, ay:Int = 0){
+        x = ax
+        y = ay
     }
 }
 
 class Point3D: Point2D{
     var z:Int
-    constructor(_x:Int, _y:Int): this (_x, _y, 0){
+    constructor(x:Int, y:Int): this (x, y, 0){
     }
-    constructor(_x:Int, _y:Int, z:Int): super (_x, _y){
+    constructor(x:Int, y:Int, z:Int): super (x, y){
         this.z = z
     }
-
 }
 
 fun main(){

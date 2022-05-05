@@ -4,7 +4,7 @@ abstract class AbstractMammal(val name: String){
     abstract fun greetMammal(): String
 }
 
-class Dog(_name: String) : AbstractMammal(_name){
+class Dog(name: String) : AbstractMammal(name){
     override fun greetMammal(): String {
         return "Hello $name!"
     }

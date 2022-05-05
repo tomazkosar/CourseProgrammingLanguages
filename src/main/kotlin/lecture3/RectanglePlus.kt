@@ -8,10 +8,10 @@ interface Relatable {
     fun isLargerThan(other: Relatable): Int
 }
 
-class RectanglePlus(_x: Int, _y: Int, _w: Int, _h: Int) : Relatable {
-    var width = _w
-    var height = _h
-    var origin: Point = Point(_x, _y)
+class RectanglePlus(x: Int, y: Int, w: Int, h: Int) : Relatable {
+    var width = w
+    var height = h
+    var origin: Point = Point(x, y)
 
     private fun getArea(): Int = width * height
 

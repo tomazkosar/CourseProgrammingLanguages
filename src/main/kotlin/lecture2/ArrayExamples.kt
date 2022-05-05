@@ -1,7 +1,15 @@
 package lecture2
 
-fun main() {
+fun test(){
+    var a:Int = 1;
+    {
+        var a:Int = 2; //compiler
+        println("a: $a")
+    }
+}
 
+fun main() {
+    test()
 
     val anArray = Array(10) { i -> i * 2 }
 

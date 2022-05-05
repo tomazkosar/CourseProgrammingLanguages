@@ -13,7 +13,7 @@ class RectanglePlus(_x: Int, _y: Int, _w: Int, _h: Int) : Relatable {
     var height = _h
     var origin: Point = Point(_x, _y)
 
-    private fun getArea(): Double = width * height
+    private fun getArea(): Int = width * height
 
     override fun toString(): String {
         return ("RectanglePlus{" +

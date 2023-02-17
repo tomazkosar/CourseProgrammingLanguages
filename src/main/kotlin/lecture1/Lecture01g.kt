@@ -1,3 +1,5 @@
+package lecture1
+
 inline fun isMultipleOf(number: Int, multipleOf: Int): Boolean {  // function used as a parameter
     return number % multipleOf == 0
 }

@@ -1,3 +1,5 @@
+package `lecture9-desktop`
+
 import com.mongodb.client.*
 import org.litote.kmongo.KMongo
 import org.litote.kmongo.getCollection

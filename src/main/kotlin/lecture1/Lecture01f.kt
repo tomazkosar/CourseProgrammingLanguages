@@ -1,15 +1,16 @@
+package lecture1
 fun main() {
     val random: Int = (1..10).random()
     var input: String
-    var number: Int
+    var number: Int?
     var counter = 0
     val tries = ArrayList<Int?>()
 
     do {
         counter++
         print("Enter an integer: ")
-        input = readLine()!!
-        val number = input.toIntOrNull()
+        input = readln()
+        number = input.toIntOrNull()
 
         when {
             number == null -> println ("wrong number")

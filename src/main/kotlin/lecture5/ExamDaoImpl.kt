@@ -1,3 +1,5 @@
+package lecture5
+
 class ExamDaoImpl : ExamDao {
 
    private val examsList = mutableListOf<Exam>()

@@ -1,3 +1,4 @@
+package lecture1
 fun main() {
     val colors = arrayOf<String>("RED","GREEN", "BLUE")
     val color: String = colors[1]  // red or green?

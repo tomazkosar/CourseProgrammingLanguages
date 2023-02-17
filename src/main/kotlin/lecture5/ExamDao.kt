@@ -1,3 +1,4 @@
+package lecture5
 
 interface ExamDao {
     fun getAllExams(): List<Exam>

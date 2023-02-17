@@ -1,3 +1,5 @@
+package lecture5
+
 class Exam(var id: Int, var name: String, var done: Boolean) {
 
     override fun toString(): String {

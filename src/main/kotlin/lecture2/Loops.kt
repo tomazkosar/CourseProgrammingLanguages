@@ -1,4 +1,4 @@
-package lecture2
+package main.kotlin.lecture2
 
 fun main() {
     var input: String

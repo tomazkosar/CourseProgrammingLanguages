@@ -1,4 +1,4 @@
-package lecture1
+package main.kotlin.lecture1
 
 class Lecture01a (var initialized: Int = 0)
 

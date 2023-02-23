@@ -1,4 +1,4 @@
-    package lecture2
+    package main.kotlin.lecture2
 
     internal interface MyInterface
     open class Parent

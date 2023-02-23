@@ -1,4 +1,4 @@
-package lecture2
+package main.kotlin.lecture2
 
 enum class Day {
         SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY

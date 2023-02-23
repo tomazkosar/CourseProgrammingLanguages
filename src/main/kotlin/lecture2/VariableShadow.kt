@@ -1,4 +1,4 @@
-package lecture2
+package main.kotlin.lecture2
 
 // Skrivanje instančnih spremenljivk - VariableShadow
 open class A {
@@ -18,7 +18,7 @@ class B : A() {
 fun main() {
     val a = A()
     val b = B()
-    val c:A = B()
+    val c: A = B()
     a.print();
     b.print();
     c.print();

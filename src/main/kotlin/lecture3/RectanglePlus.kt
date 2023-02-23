@@ -1,6 +1,6 @@
 package lecture3
 
-import lecture2.Point
+import main.kotlin.lecture2.Point
 
 interface Relatable {
     // returns 1, 0, -1 if this is greater

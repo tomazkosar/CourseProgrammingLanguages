@@ -1,10 +1,12 @@
-package lecture1
+package main.kotlin.lecture1
 
-data class Person(var name: String, var age: Int, var gender: Char)
+import java.time.LocalDate
+
+data class Person(var name: String, val birthdate: LocalDate = LocalDate.now(), var gender: Char)
 
 fun main() {
-    val tom = Person ("Tomaz", 44, 'M')
+    val tom = Person ("Tomaz", LocalDate.of(1978, 10, 12), 'M')
 
-    println("${tom.name}, ${tom.age}, ${tom.gender}")
+    println("${tom.name}, ${tom.birthdate}, ${tom.gender}")
 }
 

@@ -1,4 +1,4 @@
-package lecture2
+package main.kotlin.lecture2
 
 class Box {
     private var obj: Any = true // boolean

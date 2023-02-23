@@ -1,4 +1,4 @@
-package lecture2
+package main.kotlin.lecture2
 
 fun test(){
     var a:Int = 1;

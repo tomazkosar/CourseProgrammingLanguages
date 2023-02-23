@@ -1,4 +1,4 @@
-package lecture2
+package main.kotlin.lecture2
 
 class MyFirstClass {
     private val initialized:Int = 0

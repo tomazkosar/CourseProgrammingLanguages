@@ -1,4 +1,4 @@
-package lecture2
+package main.kotlin.lecture2
 
 class Circle(var x:Int = 0, var y:Int = 0, var radius:Int = 0) {
     fun setOrigin(x:Int, y:Int) {

@@ -1,4 +1,4 @@
-package lecture1
+package main.kotlin.lecture1
 
 //arithmetic series
 fun arithmeticSeriesSum(a: Int, n: Int, d: Int ): Int {

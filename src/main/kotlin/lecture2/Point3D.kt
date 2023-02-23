@@ -1,4 +1,4 @@
-package lecture2
+package main.kotlin.lecture2
 
 open class Point2D{
     var x: Int
@@ -9,7 +9,7 @@ open class Point2D{
     }
 }
 
-class Point3D: Point2D{
+class Point3D: Point2D {
     var z:Int
     constructor(x:Int, y:Int): this (x, y, 0){
     }

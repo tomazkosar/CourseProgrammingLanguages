@@ -1,10 +1,10 @@
-package lecture2
+package main.kotlin.lecture2
 
 internal class Polygon
 //class Point {}
 internal class TestPolygon {
-    private var somePolygon:Polygon = Polygon()
-    fun polygonFrom(corners:Array<Point>):Polygon {
+    private var somePolygon: Polygon = Polygon()
+    fun polygonFrom(corners:Array<Point>): Polygon {
         // method body goes here
         return somePolygon
     }

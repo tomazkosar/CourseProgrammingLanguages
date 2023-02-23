@@ -1,4 +1,4 @@
-package lecture2
+package main.kotlin.lecture2
 
 class Rectangle(x:Int, y:Int, width:Int, height:Int){
     private var x:Int = 0

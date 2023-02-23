@@ -1,4 +1,4 @@
-package lecture2
+package main.kotlin.lecture2
 
 // Klic prekritih (overriding) metod je mogoč preko super
 open class SuperClass {

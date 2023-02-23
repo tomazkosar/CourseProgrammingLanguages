@@ -1,4 +1,4 @@
-package lecture1
+package main.kotlin.lecture1
 fun main() {
     val random: Int = (1..10).random()
     var input: String
